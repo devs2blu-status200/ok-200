@@ -1,0 +1,17 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "status200.sol.app.br" {
+        type master;
+        file "/etc/bind/zones/status200.sol.app.br.db";
+        allow-transfer {
+                54.90.89.246;
+                54.91.162.98;
+                54.89.70.245;
+        };
+};
