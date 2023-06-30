@@ -1,0 +1,26 @@
+; BIND data file for status200.sol.app.br
+;
+$TTL    604800
+@       IN      SOA     status200.sol.app.br. root.status200.sol.app.br. (
+                                02      ; Serial
+                             10800      ; Refresh after 3 hours
+                              3600      ; Retry after 1 hour
+                            604800      ; Expire after 1 week
+                             86400 )    ; Negative cache TTL of 1 day
+;
+@       IN      NS      ns1.status200.sol.app.br.
+@       IN      NS      ns2.status200.sol.app.br.
+@       IN      NS      ns3.status200.sol.app.br.
+@       IN      NS      ns4.status200.sol.app.br.
+@       IN      MX      10   mail.status200.sol.app.br.
+@       IN      A       18.213.3.117
+www     IN      A       18.213.3.117
+mail    IN      A       18.213.3.117
+ns1     IN      A       18.213.3.117
+ns2     IN      A       54.89.70.245
+ns3     IN      A       54.91.162.98
+ns4     IN      A       54.90.89.246
+diogo   IN      A       18.213.3.117
+lucas   IN      A       54.91.162.98
+natan   IN      A       54.89.70.245
+danilo  IN      A       54.90.89.246
