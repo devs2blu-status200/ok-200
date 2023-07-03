@@ -1,0 +1,16 @@
+$TTL    604800
+@       IN      SOA     ns3.status200.sol.app.br. admin.status200.sol.app.br. (
+                       2007062701 ; Serial
+                       28800      ; Refresh
+                       14400      ; Retry
+                       604800     ; Expire
+                       604800 )   ; Negative Cache TTL
+; name servers 
+@       IN      NS      ns1.status200.sol.app.br.
+;        IN      NS      ns2.status200.sol.app.br.
+
+; hostnames
+ns1     IN      A       18.213.3.117
+;ns2     IN     A       54.91.162.98
+www     IN      A       54.91.162.98
+sis     IN      CNAME   www
