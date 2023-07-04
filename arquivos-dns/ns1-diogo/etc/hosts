@@ -1,7 +1,9 @@
 127.0.0.1 localhost
 
-18.213.3.117 ns1.status200.sol.app.br
-54.89.70.245 ns2.status200.sol.app.br
+3.89.60.22 ns1.status200.sol.app.br
+35.175.198.249 ns2.status200.sol.app.br
+54.198.125.170 ns3.status200.sol.app.br
+107.23.29.207 ns4.status200.sol.app.br
 
 # The following lines are desirable for IPv6 capable hosts
 ::1 ip6-localhost ip6-loopback

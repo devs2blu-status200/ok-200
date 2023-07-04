@@ -10,8 +10,8 @@ zone "status200.sol.app.br" {
         type master;
         file "/etc/bind/zones/status200.sol.app.br.db";
         allow-transfer {
-                54.90.89.246;
-                54.91.162.98;
-                54.89.70.245;
+                35.175.198.249;
+                54.198.125.170;
+                107.23.29.207;
         };
 };
