@@ -10,7 +10,8 @@ $TTL    604800
 ;        IN      NS      ns2.status200.sol.app.br.
 
 ; hostnames
-ns1     IN      A       18.213.3.117
+ns1     IN      A       3.89.60.22
 ;ns2     IN     A       54.91.162.98
 www     IN      A       54.91.162.98
 sis     IN      CNAME   www
+

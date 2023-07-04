@@ -9,6 +9,6 @@
 zone "satus200.sol.app.br"{
         type slave;
         file "/var/bind/zona/status200.sol.app.br.db";
-	masters { 18.213.3.117; };
+	masters { 3.89.60.22; };
 };
 
