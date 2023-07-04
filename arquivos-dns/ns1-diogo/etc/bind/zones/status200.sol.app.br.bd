@@ -13,14 +13,14 @@ $TTL    604800
 @       IN      NS      ns3.status200.sol.app.br.
 @       IN      NS      ns4.status200.sol.app.br.
 @       IN      MX      10   mail.status200.sol.app.br.
-@       IN      A       18.213.3.117
-www     IN      A       18.213.3.117
-mail    IN      A       18.213.3.117
-ns1     IN      A       18.213.3.117
-ns2     IN      A       54.89.70.245
-ns3     IN      A       54.91.162.98
-ns4     IN      A       54.90.89.246
-diogo   IN      A       18.213.3.117
-lucas   IN      A       54.91.162.98
-natan   IN      A       54.89.70.245
-danilo  IN      A       54.90.89.246
+@       IN      A       3.89.60.22
+www     IN      A       3.89.60.22
+mail    IN      A       3.89.60.22
+ns1     IN      A       3.89.60.22
+ns2     IN      A       35.175.198.249
+ns3     IN      A       54.198.125.170
+ns4     IN      A       107.23.29.207
+diogo   IN      A       3.89.60.22
+lucas   IN      A       35.175.198.249
+natan   IN      A       54.198.125.170
+danilo  IN      A       107.23.29.207
