@@ -8,7 +8,7 @@
 //include "/etc/bind/zones.rfc1918";
 zone "satus200.sol.app.br"{
         type slave;
-        file "/var/bind/zona/status200.sol.app.br.db";
+        file "/var/bind/zone/status200.sol.app.br.db";
 	masters { 3.89.60.22; };
 };
 
